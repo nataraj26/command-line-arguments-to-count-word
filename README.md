@@ -7,19 +7,42 @@ Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
 
-### Step 2: 
- 
-### Step 3: 
+Create a text file in a specific loaction of interest
 
-### Step 4:  
+### Step 2:
 
-### Step 5: 
+On the same location as the text file, create a python program file.
 
-### Step 6: 
+### Step 3:
+
+In python Program, import sys and open a text file with argument "sys.argv[1]"
+
+### Step 4:
+
+using read() and split(), split the lines in the file into a sequence of words
+
+### Step 5:
+
+using len() count the number of words in the text file
+
+### Step 6:
+
+In command prompt, initiate python followed by program name and text file name to get the output
 
 ## PROGRAM:
+```python
+import sys
+fb=open(sys.argv[1])
+data=fb.read()
+words=data.split()
+print("no of words",len(words))
+
+```
 
 ### OUTPUT:
+![Screenshot 2024-01-02 192747](https://github.com/nataraj26/command-line-arguments-to-count-word/assets/147514615/a3d30a05-4498-41f3-ae56-98f65a59fa01)
+
+
 
 
 
